@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mchughm-pi-coursera
+  host: mchughm-pi-coursera
+  disk_quota: 1024M
+  services:
+  - mchughm-pi-coursera-cloudantNoSQLDB
+  - mchughm-pi-coursera-iotf-service
